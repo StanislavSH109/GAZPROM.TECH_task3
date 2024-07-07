@@ -1,12 +1,10 @@
 .banners {
-  align-items: flex-start;
-  background-image: url("../../images/banner-bg.jpg");
-  border-radius: 32px;
   display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
   flex-direction: column;
-  justify-content: center;
-  min-height: 460px;
-  padding: 70px;
+  min-height: 300px;
+  width: 220px;
 }
 
 .banners__credits__label {
@@ -16,33 +14,37 @@
   font-size: 10px;
   font-weight: 500;
   line-height: 14px;
-  margin: 0 0 25px 0;
+  margin: 0 0 17px 0;
   padding: 5px;
   text-align: center;
   text-transform: uppercase;
-  width: 66px;
+  min-width: 66px;
 }
 
 .banners__h2 {
-  font-size: 32px;
-  line-height: 38px;
+  font-size: 24px;
+  line-height: 30px;
   font-weight: 700;
-  margin: 0 0 20px 0;
+  margin: 0 0 12px 0;
 }
 
 .banners__low-bid {
   font-size: 15px;
   line-height: 22px;
-  margin: 0 0 40px 0;
+  margin: 0 0 44px 0;
 }
 
 .banners__podrobnee {
-  padding: 10px 30px;
-  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
   font-size: 14px;
+  font-weight: 500;
   line-height: 20px;
-  text-decoration: none;
+  padding: 10px;
   background-color: #476BF0;
+  color: #ffffff;
+  margin: auto 0 0;
   border-radius: 8px;
-  text-align: center;
+  text-decoration: none;
+  min-width: 140px;
 }

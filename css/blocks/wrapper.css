@@ -1,0 +1,15 @@
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-wrapper .page-banners {
+  display: flex;
+  flex-direction: column;
+} 
+
+.page-wrapper .banners {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
