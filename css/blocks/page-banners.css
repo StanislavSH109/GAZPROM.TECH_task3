@@ -6,7 +6,7 @@
     padding: 32px;
   }
 
-  .page-banners--card2 {
+  .page-banners--debetCards {
     background-color: #476BF0;
   }
   
@@ -19,20 +19,20 @@
     ;
   }
   
-  .page-banners--card2 .banners__credits__label {
+  .page-banners--debetCards .banners__credits-label {
     color: rgba(255, 255, 255, 0.5);
     border-color: rgba(255, 255, 255, 0.5);
   }
   
-  .page-banners--card2 .banners__h2 {
+  .page-banners--debetCards .banners__h2 {
     color: #ffffff;
   }
   
-  .page-banners--card2 .banners__low-bid {
+  .page-banners--debetCards .banners__low-bid {
     color: #ffffff;
   }
   
-  .page-banners--card2 .banners__podrobnee {
+  .page-banners--debetCards .banners__podrobnee {
     background-color: #ffffff;
     color: #476BF0;
   }
