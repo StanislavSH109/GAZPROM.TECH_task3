@@ -48,3 +48,10 @@
   text-decoration: none;
   min-width: 140px;
 }
+
+.banners-block__img {
+  width: 280px;
+  height: 180px;
+}
+
+

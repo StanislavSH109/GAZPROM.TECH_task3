@@ -6,4 +6,5 @@
 @import "blocks/page-content.css";
 @import "blocks/banners.css";
 @import "blocks/footer.css";
-@import "blocks/wrapper.css"
+@import "blocks/wrapper.css";
+@import "blocks/page-banners.css"

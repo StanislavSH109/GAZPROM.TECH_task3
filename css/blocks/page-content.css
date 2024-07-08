@@ -10,14 +10,6 @@
   margin: 0 0 60px 0;
 }
 
-.page-banners {
-  display: flex;
-  justify-content: space-between;
-  background-color: #E7EFFF;
-  border-radius: 12px;
-  padding: 32px;
-}
-
 .page-content__list {
   display: flex;
   flex-wrap: wrap;
@@ -33,39 +25,3 @@
   width: calc(50% - 36px);
 }
 
-.banners-block__img {
-  width: 280px;
-  height: 180px;
-}
-
-
-.page-banners--card2 {
-  background-color: #476BF0;
-}
-
-.page-banners--card3 {
-  background-color: rgba(207, 246, 231, 1);
-}
-
-.page-banners--card4 {
-  background-color: rgba(196, 231, 255, 1);
-  ;
-}
-
-.page-banners--card2 .banners__credits__label {
-  color: rgba(255, 255, 255, 0.5);
-  border-color: rgba(255, 255, 255, 0.5);
-}
-
-.page-banners--card2 .banners__h2 {
-  color: #ffffff;
-}
-
-.page-banners--card2 .banners__low-bid {
-  color: #ffffff;
-}
-
-.page-banners--card2 .banners__podrobnee {
-  background-color: #ffffff;
-  color: #476BF0;
-}
