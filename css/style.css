@@ -7,4 +7,6 @@
 @import "blocks/banners.css";
 @import "blocks/footer.css";
 @import "blocks/wrapper.css";
-@import "blocks/page-banners.css"
+@import "blocks/page-banners.css";
+@import "blocks/features-card.css";
+@import "blocks/features-list.css";

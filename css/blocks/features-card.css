@@ -1,4 +1,4 @@
-.page-banners {
+.features-card {
     display: flex;
     justify-content: space-between;
     background-color: #E7EFFF;
@@ -6,33 +6,33 @@
     padding: 32px;
   }
 
-  .page-banners--debetCards {
+  .features-card--debet-cards {
     background-color: #476BF0;
   }
   
-  .page-banners--hypothec {
+  .features--hypothec {
     background-color: rgba(207, 246, 231, 1);
   }
   
-  .page-banners--privilege {
+  .features-card--privilege {
     background-color: rgba(196, 231, 255, 1);
     ;
   }
   
-  .page-banners--debetCards .banners__credits-label {
+  .features-card--debet-cards .features-card__label {
     color: rgba(255, 255, 255, 0.5);
     border-color: rgba(255, 255, 255, 0.5);
   }
   
-  .page-banners--debetCards .banners__h2 {
+  .features-card--debet-cards .features-card__title {
     color: #ffffff;
   }
   
-  .page-banners--debetCards .banners__low-bid {
+  .features-card--debet-cards .features-card__note {
     color: #ffffff;
   }
   
-  .page-banners--debetCards .banners__podrobnee {
+  .features-card--debet-cards .features-card__link {
     background-color: #ffffff;
     color: #476BF0;
   }
