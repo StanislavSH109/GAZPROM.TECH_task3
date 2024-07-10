@@ -7,7 +7,7 @@
   margin: 0 0 20px;
 }
 
-.features-ltem {
+.features-list__ltem {
   display: flex;
   flex-wrap: wrap;
   width: calc(50% - 36px);

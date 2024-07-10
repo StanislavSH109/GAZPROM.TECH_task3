@@ -4,19 +4,79 @@
     background-color: #E7EFFF;
     border-radius: 12px;
     padding: 32px;
+    max-width: 600px;
   }
+
+  .features-card__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 240px;
+  }
+
+  .features-card__wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .features-card__label {
+    border: 1px solid rgba(30, 34, 46, 0.5);
+    border-radius: 4px;
+    color: rgba(30, 34, 46, 0.5);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+    margin: 0 0 17px 0;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    min-width: 66px;
+  }
+
+  .features-card__title {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+  }
+
+  .features-card__note {
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0 0 44px 0;
+  }
+
+  .features-card__link {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 10px;
+    background-color: #476BF0;
+    color: #ffffff;
+    margin: auto 0 0;
+    border-radius: 8px;
+    text-decoration: none;
+    min-width: 140px;
+  }
+
+  .features-card__img {
+    width: 280px;
+    height: 180px;
+  }
+
 
   .features-card--debet-cards {
     background-color: #476BF0;
   }
   
-  .features--hypothec {
+  .features-card--hypothec {
     background-color: rgba(207, 246, 231, 1);
   }
   
   .features-card--privilege {
     background-color: rgba(196, 231, 255, 1);
-    ;
   }
   
   .features-card--debet-cards .features-card__label {
