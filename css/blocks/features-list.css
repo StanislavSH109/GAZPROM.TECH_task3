@@ -2,14 +2,21 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-between;
   gap: 32px;
   padding: 0;
   margin: 0 0 20px;
+  list-style: none;
 }
 
-.features-list__ltem {
+.features-list__item {
   display: flex;
   flex-wrap: wrap;
   width: calc(50% - 36px);
 }
 
+.features-list--alternate {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
