@@ -20,3 +20,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
 }
+
+.features-list--alternate .features-list__item {
+  width: calc(25% - 32px);
+}
