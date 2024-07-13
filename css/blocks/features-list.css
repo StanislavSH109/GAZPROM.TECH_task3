@@ -10,17 +10,10 @@
 }
 
 .features-list__item {
-  display: flex;
-  flex-wrap: wrap;
-  width: calc(50% - 36px);
-}
-
-.features-list--alternate {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  width: calc(50% - (32px / 2));
 }
 
 .features-list--alternate .features-list__item {
-  width: calc(25% - 32px);
+  display: flex;
+  width: calc(25% - (96px / 4));
 }
